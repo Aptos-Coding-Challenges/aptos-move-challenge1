@@ -1,0 +1,24 @@
+[package]
+name = "my_first_nft_challenge"
+version = "0.1.0"
+
+[addresses]
+contract = "0xCAFE"
+aptos_framework = "0x1"
+aptos_std = "0x1"
+aptos_token_objects = "0x4"
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-framework.git"
+subdir = "aptos-framework"
+rev = "main"
+
+[dependencies.AptosStdlib]
+git = "https://github.com/aptos-labs/aptos-framework.git"
+subdir = "aptos-stdlib"
+rev = "main"
+
+[dependencies.AptosTokenObjects]
+git = "https://github.com/aptos-labs/aptos-framework.git"
+subdir = "aptos-token-objects"
+rev = "main"
