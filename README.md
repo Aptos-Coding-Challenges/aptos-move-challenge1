@@ -92,8 +92,8 @@ prove your solution meets the challenge requirements.
 - Read through the tests to understand the order of operations the graders expect.
 - The Aptos CLI must be available on your PATH for both the scripts and manual runs.
 
-## Checkpoint 4: 💯 Submit your answer 
+## Checkpoint 4: 💯 Submit Your Answer 
 
-1. After successfully passing the tests, push your code to your forked Github repo and [make a PR to the original repo.](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request-from-a-fork) 
+1. After successfully passing the tests, push your code to your forked GitHub repo and [make a PR to the original repo.](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request-from-a-fork) 
 2. Inside the PR include:
   - Screenshot of your terminal showing the result of running the test script.
