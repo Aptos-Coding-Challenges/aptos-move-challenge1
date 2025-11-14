@@ -27,13 +27,13 @@ module contract::nft_challenge_tests {
 
         assert!(collection::count(collection_object) == option::some(1), 0);
 
-        assert!(token::creator(token_object) == signer::address_of(user), 0);
+        assert!(object::owner(token_object) == signer::address_of(user), 0);
 
         assert!(token::collection_object(token_object) == collection_object, 0);
 
         let custom_metadata = my_first_nft::get_custom_metadata(object::object_address(&token_object));
         assert!(custom_metadata.get_creator() == signer::address_of(user), 0);
-        assert!(custom_metadata.get_created_at() != now, 0);
+        assert!(custom_metadata.get_created_at() == now, 0);
 
         // burn nft
         my_first_nft::burn(user, token_object);

@@ -5,7 +5,7 @@ param(
 )
 
 $TestFile = "tests/my_first_nft_tests.move"
-$ExpectedHash = "def98fcc65656ccee12f4a516dff1790b8ba0fc42597385388a2e08962154022"
+$ExpectedHash = "7a6452ca8c026e1224a914096d3357a6ad48930eba4032d80837e9699341228e"
 
 if (-not (Test-Path -LiteralPath $TestFile)) {
     Write-Error "Test file '$TestFile' not found"
