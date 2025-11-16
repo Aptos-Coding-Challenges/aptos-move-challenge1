@@ -68,13 +68,13 @@ is judged against the same tests.
 Linux/macOS:
 
 ```bash
-./verify.sh [additional aptos move test args]
+./verify.sh
 ```
 
 Windows (PowerShell 7+):
 
 ```powershell
-pwsh -File verify.ps1 [-AptosArgs @('--filter','foo')]
+pwsh -File verify.ps1
 ```
 
 Both scripts:
