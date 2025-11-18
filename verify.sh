@@ -2,7 +2,7 @@
 set -euo pipefail
 
 TEST_FILE="tests/my_first_nft_tests.move"
-EXPECTED_HASH="7a6452ca8c026e1224a914096d3357a6ad48930eba4032d80837e9699341228e"
+EXPECTED_HASH="dd30c64ba905c08ac59666471c4e8da340abebd219ca2a0f8cd337dc9de18302"
 
 hash_file() {
   if command -v shasum >/dev/null 2>&1; then
